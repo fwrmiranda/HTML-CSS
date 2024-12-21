@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor1: #D9969B;
+    --cor2: #C88489;
+    --cor3: #F4C3C2;
+    --cor4: #401B1B;
+
+
+    --fonte-padrao: Arial, Verdana, sans-serif;
+    --fonte-destaque: 'DM Sans', cursive;
+    --fonte-grande: Poppins, cursive
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    color: var(--cor4);
+}
+
+header{
+    background-color: var(--cor1);
+    min-height: 110px;
+    text-align: center;
+}
+
+header > h1{
+    color:white;
+    font-family: var(--fonte-grande);
+    font-size: 5em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p{
+    color: white;
+    background-color: var(--cor2);
+    font-family: var(--fonte-grande);
+    font-size: 1em;
+    padding-left: 500px;
+    padding-right: 500px;
+    max-width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+main{
+    min-width: 600px;
+    max-width: 1400px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h1{
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    font-size: 2.3em;
+}
+main h2{
+    background-color: var(--cor1);
+    padding-left: 10px;
+    color: var(--cor4);
+    font-family: var(--fonte-de); 
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+main h3{
+    color: var(--cor4);
+    font-family: var(--fonte-de); 
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+main p{
+    margin-top: 5px;
+}
